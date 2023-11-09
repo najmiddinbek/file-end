@@ -124,6 +124,7 @@ const PupilsAddClient = () => {
                         {/* <input className="w-full py-3 px-2 border outline-none" onChange={(e) => setMFY(e.target.value)} value={MFY} type="text" placeholder="MFY kiriting" /> */}
 
                         <select className="px-2 py-3 cursor-pointer" onChange={(e) => setMFY(e.target.value)} value={MFY}>
+                            <option>Bu yerdan tanlang</option>
                             <option>SARKOR MFY</option>
                             <option>NAVRUZ MFY</option>
                             <option>BESHKAPA MFY</option>
