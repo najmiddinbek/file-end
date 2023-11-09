@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar"
 export default function page() {
     return (
         <>
-            <div>
+            <div className='pb-4'>
                 <Navbar />
                 <AdminMainPage />
             </div>

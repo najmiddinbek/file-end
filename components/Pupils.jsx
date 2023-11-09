@@ -89,7 +89,6 @@ const PupilsAddClient = () => {
         <>
             <form onSubmit={handleSubmit} className="w-full flex flex-col gap-3 main_form_add">
                 <div className="text-end">
-                    <h1>Najmiddin</h1>
                     <Link className="green rounded-md py-3 px-10 text-white button" href={"/"}>Orqaga</Link>
                 </div>
                 <label className="text-[18px] poppins font-bold" htmlFor="">
@@ -126,12 +125,64 @@ const PupilsAddClient = () => {
 
                         <select className="px-2 py-3 cursor-pointer" onChange={(e) => setMFY(e.target.value)} value={MFY}>
                             <option>Bu yerdan tanlang</option>
-                            <option>SARKOR MFY</option>
-                            <option>NAVRUZ MFY</option>
+                            <option>OYQIRON MFY</option>
+                            <option>NAMANGAN MFY</option>
+                            <option>BAG'RIKENGLIK MFY</option>
+                            <option>ALIXON MFY</option>
+                            <option>ARBAG'ISH MFY</option>
+                            <option>BALIQ KO'L MFY</option>
+                            <option>BAYNALMINAL MFY</option>
                             <option>BESHKAPA MFY</option>
-                            <option>ZIYOKOR MFY</option>
-                            <option>CHORTOQ MFY</option>
+                            <option>BESHTOL MFY</option>
+                            <option>BODOMZOR MFY</option>
+                            <option>BOG' MFY</option>
+                            <option>BOG'ISTON MFY</option>
                             <option>BOLON MFY</option>
+                            <option>BOZORBOSHI MFY</option>
+                            <option>CHIG'ATOY</option>
+                            <option>CHORSU MFY</option>
+                            <option>DAMARIQ MFY</option>
+                            <option>DEHQONOBOD MFY</option>
+                            <option>DILDOSH MFY</option>
+                            <option>Z.DIYOR MFY</option>
+                            <option>DO'STLIK</option>
+                            <option>GULDIROV MFY</option>
+                            <option>GULSHAN</option>
+                            <option>IFTIXOR MFY</option>
+                            <option>ISTIQLOL MFY</option>
+                            <option>KESKANYOR MFY</option>
+                            <option>KOMILLIK MFY</option>
+                            <option>LASKIDON MFY</option>
+                            <option>MUSTAQILLIK MFY</option>
+                            <option>NAMANGAN MFY</option>
+                            <option>NAVBAHOR MFY</option>
+                            <option>A.NAVOIY MFY</option>
+                            <option>OBOD-DIYOR MFY</option>
+                            <option>OQTERAK MFY</option>
+                            <option>ORA-ARIQ MFY</option>
+                            <option>O'RIKOZOR MFY</option>
+                            <option>OROMGOH MFY</option>
+                            <option>QORAMURT MFY</option>
+                            <option>SARKOR MFY</option>
+                            <option>SAROY MFY</option>
+                            <option>SOHIBKOR MFY</option>
+                            <option>SOY MFY</option>
+                            <option>SOZ-SOY MFY</option>
+                            <option>TENGDOSH MFY</option>
+                            <option>TINCHLIK MFY</option>
+                            <option>TOPQAYRAG'OCH MFY</option>
+                            <option>TORIQ MFY</option>
+                            <option>TURKISTON MFY</option>
+                            <option>O'ZBEKISTON MFY</option>
+                            <option>UNUN KO'CHA MFY</option>
+                            <option>XAYRLI MFY</option>
+                            <option>XAZRATISHOX MFY</option>
+                            <option>YANGIOBOD MFY</option>
+                            <option>YUKSALISH MFY</option>
+                            <option>ZANGIOBOD MFY</option>
+                            <option>ZIYOKOR MFY</option>
+                            <option>NAVRUZ MFY</option>
+
                         </select>
                         <label className="text-[18px] font-bold poppins" htmlFor="">
                             Qoldirilgan dars vaqti
