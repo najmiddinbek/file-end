@@ -89,6 +89,7 @@ const PupilsAddClient = () => {
         <>
             <form onSubmit={handleSubmit} className="w-full flex flex-col gap-3 main_form_add">
                 <div className="text-end">
+                    <h1>Najmiddin</h1>
                     <Link className="green rounded-md py-3 px-10 text-white button" href={"/"}>Orqaga</Link>
                 </div>
                 <label className="text-[18px] poppins font-bold" htmlFor="">
